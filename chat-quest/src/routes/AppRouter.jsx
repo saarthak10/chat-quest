@@ -10,6 +10,9 @@ const AppRouter = () => {
         <BrowserRouter>
             <Suspense fallback= {<div>... Loading</div>}>
             <Routes>
+                <Route path="/" element={<></>}>
+
+                </Route>
                 <Route path="/" element={<Home />}/>
             </Routes>
 
