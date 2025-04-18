@@ -1,9 +1,13 @@
+/*eslint-disable */
+import { Grid2 } from '@mui/material'
 import React from 'react'
 
 const NewChatButton = ({onClick, text, showIcon}) => {
   return (
     <>
-        <Grid></Grid>
+        <Grid2>
+
+        </Grid2>
     </>
   )
 }
